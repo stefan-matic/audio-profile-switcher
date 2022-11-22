@@ -21,6 +21,7 @@ Clone this repository
 ```bash
 git clone https://github.com/stefan-matic/audio-profile-switcher.git
 cd audio-profile-switcher
+chmod +x audio-profile-switcher.sh
 ```
 
 Change the values of the following variables to match your device using any text editor:

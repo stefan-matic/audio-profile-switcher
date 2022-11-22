@@ -1,4 +1,3 @@
-
 #!/bin/bash
 
 # Commands to get needed envs
@@ -16,12 +15,10 @@ CLEAR="`tput clear` "
 
 switch() {
   # pactl list cards short
-  # My example:
   DEVICE="bluez_card.78_2B_64_16_8F_C6"
   # pactl list sinks short (remove the profile after last dot)
-  # My example:
   DEVICE_SINK="bluez_output.78_2B_64_16_8F_C6"
-  # pactl list cards 
+  # pactl list cards
   # find under Profiles of your device.
   # Don't use specific codecs, just base profile, it will pick last used codec.
   PROFILE_QUALITY="a2dp-sink"
