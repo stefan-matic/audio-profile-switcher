@@ -29,7 +29,7 @@ Change the values of the following variables to match your device using any text
 - DEVICE (run `pactl list cards short` to find your card)
 - DEVICE_SINK (run `pactl list sinks short` (remove the profile after last dot))
 
-*You might also need to change the `PROFILE_CALL` and `PROFILE_QUALITY` variables to your device profiles (you can find them by running `pactl list cards` under Profiles of your device)), but to my knowledge most bluetooth headphones have this naming convention*
+*You might also need to change the `PROFILE_CALL` and `PROFILE_QUALITY` variables to your device profiles (you can find them by running `pactl list cards` under Profiles of your device), but to my knowledge most bluetooth headphones have this naming convention*
 
 
 Run the script with `install` argument to add the script to your `/usr/local/bin` with a custom name to be able to call the script from your terminal.
