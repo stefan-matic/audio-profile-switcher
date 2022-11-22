@@ -3,6 +3,7 @@
 Lots of bluetooth headphones have two modes, **High Quality** and **Call** mode.
 
 **High Quality** mode provides you with better sound and/or noise cancellation, but doesn't utilize the microphone.
+
 **Call** mode provides less quality but enables the microphone for calls.
 
 The script lets you easily switch between **High Quality** and **Call** mode but just calling the script.
@@ -22,7 +23,7 @@ git clone https://github.com/stefan-matic/audio-profile-switcher.git
 cd audio-profile-switcher
 ```
 
-Change the values of the following variables to match your device using any text editor
+Change the values of the following variables to match your device using any text editor:
 
 - DEVICE (run `pactl list cards short` to find your card)
 - DEVICE_SINK (run `pactl list sinks short` (remove the profile after last dot))
@@ -39,7 +40,7 @@ Follow the prompts on screen and enter the name of the command you would like to
 
 ![Installation](assets/installation.png)
 
-The script does require sudo privileges to be able to symlink the script to your `/usr/local/bin` directory.
+The script does require sudo privileges to be able to copy the script to your `/usr/local/bin` directory.
 
 *Please verify any scripts yourselves before running it with sudo permissions.*
 
@@ -47,4 +48,4 @@ The script does require sudo privileges to be able to symlink the script to your
 
 Run the script by using the name supplied in the installation step to run the audio switch from the terminal.
 
-
+If you have multiple bluetooth headphones you can add the first, do the installation, edit the values again for other devices and do the installation again supplying a different name. Rinse and repeat however many times needed.
